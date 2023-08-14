@@ -1,0 +1,16 @@
+.attachments{
+    box-sizing: border-box;
+    margin-top: 30px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+}
+
+.attachments img{
+    object-fit: cover;
+    border-bottom: 8px solid #4d525c;
+    border-radius: 16px;
+    height: 200px;
+    width: 200px;
+}

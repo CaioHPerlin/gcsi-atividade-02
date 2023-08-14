@@ -1,0 +1,51 @@
+.post-field{
+    padding: 0px 40px;
+    display: flex;
+}
+
+.picture-field{
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.picture-field img{
+    height: 75px;
+    border-radius: 50%;
+}
+
+.post-field form{
+    flex: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.post-field input{
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    padding: 20px 40px;
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.droparea{
+    box-sizing: border-box;
+    color: #3a2c74;
+    text-align: center;
+    font-size: 48px;
+    padding: 0px 35px;
+    width: 95%;
+    border-radius: 20px;
+    border: 4px dashed #3a2c74;
+}
+
+.dragging{
+    color: #7856ff;
+    border: 4px dashed #7856ff;
+}

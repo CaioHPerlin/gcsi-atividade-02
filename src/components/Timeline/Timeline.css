@@ -1,0 +1,7 @@
+.timeline{
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid #2f3336;
+    border-left: none;
+    border-radius: 0px 16px 16px 0px;
+}

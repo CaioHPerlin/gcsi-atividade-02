@@ -1,0 +1,38 @@
+.post{
+    padding: 20px 40px;
+    display: flex;
+    border-top: 1px solid #2f3336;
+}
+
+.post-pic{
+    flex: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.post-pic img{
+    height: 75px;
+    border-radius: 50%;
+}
+
+.text-content{
+    flex: 90%;
+    text-align: justify;
+    word-break:break-all;
+}
+
+.text-content h3{
+    margin: 0;
+}
+
+.text-content p{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.text-content span{
+    color: gray;
+    font-weight: normal;
+}
